@@ -28,3 +28,15 @@ console.log(typeof year);
 
 year = 2000;
 console.log(typeof year);
+
+// ---- let,const,var ----
+
+let age = 22;
+age = 25;
+const birthYear = 2000;
+//birthYear = 2001;
+// const job;
+var job = 'programmer';
+job = 'student';
+lastName = 'Schmedtmann';
+console.log(lastName);
