@@ -63,3 +63,20 @@ x++;
 x--;
 
 console.log(x);
+
+//---------- Strings and Template ------------
+const work = 'learning';
+const topic = 'JS';
+const time = 2;
+
+const mehe = "I'm " + work + ' ' + topic + ' ' + 'for ' + time + 'hours';
+console.log(mehe);
+const meheNew = `I'm ${work} ${topic} for ${time} hours!`;
+console.log(meheNew);
+console.log(`Just a regular string...`);
+console.log('String with \n\
+multiple \n\
+lines');
+console.log(`String
+multiple
+lines`);
